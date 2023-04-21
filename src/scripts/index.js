@@ -1,8 +1,7 @@
-/* eslint-disable import/extensions */
 import 'regenerator-runtime';
 import '../styles/style.css';
 import '../styles/responsive.css';
-import App from './views/app.js';
+import App from './views/app';
 import swRegister from './utils/sw-register';
 
 const app = new App({
